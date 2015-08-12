@@ -7,3 +7,5 @@ before_install:
 perl:
   - "5.18"
   - "5.16"
+script:
+  - cpanm --version
